@@ -298,7 +298,7 @@ void setup() {
       Serial.println("WiFi connected");
       Serial.print("IP address: ");
       Serial.println(WiFi.localIP());
-      Serial.println("Domoticz motion ON");
+      Serial.println("Hassio motion ON");
 
       if (wuc > 1)
       {
